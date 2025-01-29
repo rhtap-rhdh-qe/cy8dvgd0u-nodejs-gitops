@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  labels: 
+    app.kubernetes.io/instance: cy8dvgd0u-nodejs
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: cy8dvgd0u-nodejs 
+  name: cy8dvgd0u-nodejs
+spec:
+  ports:
+  - port: 3001 
+    targetPort: 3001 
+  selector:
+    app.kubernetes.io/instance: cy8dvgd0u-nodejs 

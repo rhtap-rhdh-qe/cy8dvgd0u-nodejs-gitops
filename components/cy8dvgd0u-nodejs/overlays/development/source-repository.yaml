@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: cy8dvgd0u-nodejs-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/cy8dvgd0u-nodejs
